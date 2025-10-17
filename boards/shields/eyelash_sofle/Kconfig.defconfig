@@ -27,6 +27,15 @@ choice ZMK_DISPLAY_WORK_QUEUE
     default ZMK_DISPLAY_WORK_QUEUE_DEDICATED
 endchoice
 
+config ZMK_WIDGET_LAYER_STATUS
+    default y
+config ZMK_WIDGET_OUTPUT_STATUS
+    default y
+config ZMK_WIDGET_WPM_STATUS
+    default y
+config ZMK_WIDGET_BATTERY_STATUS
+    default y
+
 endif
 
 if SSD1306
