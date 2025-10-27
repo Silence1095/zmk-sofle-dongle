@@ -23,17 +23,6 @@
 
 &msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; };
 
-&msc {
-    acceleration-exponent = <0>;      // 0
-    time-to-max-speed-ms = <0>;       // 300
-    delay-ms = <0>;                   // 0
-};
-
-&mmv {
-    time-to-max-speed-ms = <400>;
-    acceleration-exponent = <1>;
-};
-
 / {
     Home_row_mod_left: Home_row_mod_left {
         compatible = "zmk,behavior-hold-tap";
