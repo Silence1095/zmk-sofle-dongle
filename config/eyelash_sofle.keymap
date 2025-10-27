@@ -80,13 +80,6 @@
         hold-trigger-key-positions = <0 1 13 14 15 16 17 18 28 29 30 31 0 1 2 3 4 5 13 14 15 16 17 18 26 27 28 29 30 31 39 40 41 42 43 44>;
     };
 
-    Mouse_scroll: Mouse_scroll {
-        compatible = "zmk,behavior-sensor-rotate";
-        label = "MOUSE_SCROLL";
-        #sensor-binding-cells = <0>;
-        bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
-    };
-
     behaviors {
     };
 
@@ -102,7 +95,7 @@
 &kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT              &kp DELETE                       &kp SPACE    &kp ENTER        &kp ENTER  &kp BACKSPACE                      &mo 2                      &kp RIGHT_SHIFT  &kp DELETE
             >;
 
-            sensor-bindings = <&Mouse_scroll>;
+            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP K_SCROLL_DOWN>;
             display-name = "Home";
         };
 
