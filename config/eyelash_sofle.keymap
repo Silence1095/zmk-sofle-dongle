@@ -93,13 +93,13 @@
         compatible = "zmk,combos";
 
         bootloader1 {
-            bindings = <&bootloader>;
+            bindings = <&sys_reset>;
             key-positions = <1 2 3>;
             layers = <0>;
         };
 
         bootloader2 {
-            bindings = <&bootloader>;
+            bindings = <&sys_reset>;
             key-positions = <9 10 11>;
             layers = <0>;
         };
