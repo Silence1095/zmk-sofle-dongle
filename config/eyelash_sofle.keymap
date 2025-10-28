@@ -83,6 +83,22 @@
     behaviors {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <1 2 3>;
+            layers = <0>;
+        };
+
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <9 10 11>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
