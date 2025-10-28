@@ -4,10 +4,9 @@
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/rgb.h>
 
 / {
     zip_scroll_scaler: zip_scroll_scaler {
@@ -80,6 +79,13 @@
         hold-trigger-key-positions = <0 1 13 14 15 16 17 18 28 29 30 31 0 1 2 3 4 5 13 14 15 16 17 18 26 27 28 29 30 31 39 40 41 42 43 44>;
     };
 
+    scroll_wheel: scroll_wheel {
+        compatible = "zmk,behavior-sensor-rotate";
+        label = "SCROLL_WHEEL";
+        #sensor-binding-cells = <0>;
+        bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+    };
+
     behaviors {
     };
 
@@ -107,11 +113,11 @@
 &kp ESC     &kp N1     &kp N2        &kp N3                    &kp N4                           &kp N5       &kp UP_ARROW     &kp N6     &kp N7                             &kp N8                     &kp N9           &kp N0      &kp MINUS
 &kp TAB     &kp Q      &kp W         &kp E                     &kp R                            &kp T        &kp DOWN_ARROW   &kp Y      &kp U                              &kp I                      &kp O            &kp P       &kp BSLH
 &kp CAPS    &kp A      &kp S         &Home_row_layer_left 1 D  &Home_row_mod_left LEFT_SHIFT F  &kp G        &kp LEFT_ARROW   &kp H      &Home_row_mod_right RIGHT_SHIFT J  &Home_row_layer_right 1 K  &kp L            &kp SEMI    &kp APOS
-&kp LCTRL   &kp Z      &kp X         &kp C                     &kp V                            &kp B        &kp RIGHT_ARROW  &kp N      &kp M                              &kp COMMA                  &kp DOT          &kp FSLH    &kp RIGHT_SHIFT
+&kp LCTRL   &kp Z      &kp X         &kp C                     &kp V                            &kp B        &kp RIGHT_ARROW  &kp N      &Home_row_layer_right 2 M          &kp COMMA                  &kp DOT          &kp FSLH    &kp RIGHT_SHIFT
 &kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT              &kp DELETE                       &kp SPACE    &kp ENTER        &kp ENTER  &kp BACKSPACE                      &mo 2                      &kp RIGHT_SHIFT  &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&scroll_wheel>;
             display-name = "Home";
         };
 
@@ -128,13 +134,13 @@
             display-name = "Symbols";
         };
 
-        layer_2 {
+        config {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
-&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
-&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
+&trans  &trans           &trans           &trans           &trans           &trans             &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
+&trans  &trans           &trans           &trans           &trans           &trans             &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
+&trans  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &trans           &trans             &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
+&trans  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF  &rgb_ug RGB_TOG    &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
+&trans  &trans           &trans           &trans           &trans           &trans             &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP K_VOLUME_DOWN>;
