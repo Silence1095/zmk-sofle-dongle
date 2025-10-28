@@ -86,13 +86,13 @@
     combos {
         compatible = "zmk,combos";
 
-        bootloader {
+        bootloader1 {
             bindings = <&bootloader>;
             key-positions = <1 2 3>;
             layers = <0>;
         };
 
-        bootloader {
+        bootloader2 {
             bindings = <&bootloader>;
             key-positions = <9 10 11>;
             layers = <0>;
