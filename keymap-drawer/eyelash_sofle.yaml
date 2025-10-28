@@ -262,8 +262,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 2, 3]
-  k: $$mdi:progress-download$$
+  k: {t: '$$mdi:backup-restore$$', type: bootloader}
   l: [Home]
 - p: [9, 10, 11]
-  k: $$mdi:progress-download$$
+  k: {t: '$$mdi:backup-restore$$', type: bootloader}
   l: [Home]

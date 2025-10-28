@@ -628,17 +628,17 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse-outline"/>
 </g>
-<g class="combo combopos-0">
+<g class="combo bootloader combopos-0">
 <path d="M140,40 l-38,11" class="combo"/>
 <path d="M140,40 l38,-8" class="combo"/>
-<rect rx="6" ry="6" x="126" y="27" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="131" y="31" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
+<rect rx="6" ry="6" x="126" y="27" width="28" height="26" class="combo bootloader"/>
+<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="131" y="31" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
 </g>
-<g class="combo combopos-1">
+<g class="combo bootloader combopos-1">
 <path d="M784,40 l-38,-8" class="combo"/>
 <path d="M784,40 l38,11" class="combo"/>
-<rect rx="6" ry="6" x="770" y="27" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="775" y="31" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
+<rect rx="6" ry="6" x="770" y="27" width="28" height="26" class="combo bootloader"/>
+<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="775" y="31" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
 </g>
 </g>
 </g>
