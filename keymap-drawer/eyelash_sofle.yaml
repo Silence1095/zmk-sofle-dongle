@@ -29,7 +29,7 @@ layers:
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-caps$$
   - A
-  - S
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: Symbols}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
@@ -37,7 +37,7 @@ layers:
   - H
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, h: Symbols}
-  - L
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, s: ':'}
   - .
   - $$mdi:apple-keyboard-control$$
@@ -62,7 +62,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - config
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - config
   Symbols:
@@ -103,7 +103,7 @@ layers:
   - {t: Sft+8, s: Sft+*}
   - {t: AltGr+8, s: AltGr+*, type: held alternate}
   - {t: AltGr+7, s: AltGr+&}
-  - {t: 'Sft+,', s: Sft+<}
+  - \
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -115,8 +115,8 @@ layers:
   - PG DN
   - {t: Sft+9, s: Sft+(}
   - {t: AltGr+9, s: AltGr+(}
-  - {t: AltGr+9, s: AltGr+(}
-  - Sft+.
+  - AltGr+0
+  - Sft+\
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -192,7 +192,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   Gaming:
