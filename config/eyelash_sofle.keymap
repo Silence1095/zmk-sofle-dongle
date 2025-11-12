@@ -104,7 +104,16 @@
 
         f5 {
             bindings = <&kp F5>;
-            key-positions = <27 28 30>;
+            key-positions = <30 5>;
+        };
+    };
+
+    macros {
+        std: std {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp T &kp D &kp COLON &kp COLON>;
+            label = "STD";
         };
     };
 
@@ -129,7 +138,7 @@
 &kp GRAVE   &kp F1            &kp F2                 &kp F3            &kp F4            &kp F5        &mmv MOVE_UP     &kp F6     &kp F7      &kp F8             &kp F9            &kp F10                   &kp F11
 &trans      &kp LS(NUMBER_1)  &kp LS(NUMBER_2)       &kp LS(NUMBER_3)  &kp RA(NUMBER_4)  &kp LS(N5)    &mmv MOVE_DOWN   &kp MINUS  &kp SLASH   &kp LS(BACKSLASH)  &kp RS(N7)        &kp RS(N0)                &kp F12
 &trans      &kp RA(NUMBER_2)  &kp RA(RIGHT_BRACKET)  &kp LS(MINUS)     &kp RS(NUMBER_1)  &kp HOME      &mmv MOVE_LEFT   &kp PG_UP  &kp LS(N8)  &kp RA(N8)         &kp RA(N7)        &kp NON_US_BACKSLASH      &trans
-&trans      &trans            &trans                 &trans            &trans            &kp END       &mmv MOVE_RIGHT  &kp PG_DN  &kp LS(N9)  &kp RA(N9)         &kp RA(NUMBER_0)  &kp LS(NON_US_BACKSLASH)  &trans
+&trans      &trans            &trans                 &trans            &trans            &kp END       &mmv MOVE_RIGHT  &kp PG_DN  &kp LS(N9)  &kp RA(N9)         &kp RA(NUMBER_0)  &kp LS(NON_US_BACKSLASH)  &std
 &kp C_MUTE  &trans            &trans                 &trans            &trans            &trans        &mkp LCLK        &trans     &trans      &trans             &trans            &trans
             >;
 
