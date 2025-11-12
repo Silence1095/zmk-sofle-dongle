@@ -10,12 +10,14 @@
 &mt {
     flavor = "tap-preferred";
     quick-tap-ms = <200>;
-    require-prior-idle-ms = <125>;
+    require-prior-idle-ms = <110>;
+    tapping-term-ms = <180>;
+    retro-tap;
 };
 
 &lt {
-    require-prior-idle-ms = <125>;
     quick-tap-ms = <200>;
+    tapping-term-ms = <210>;
 };
 
 / {
@@ -42,8 +44,8 @@
         tapping-term-ms = <280>;
         hold-trigger-key-positions = <7 8 9 10 11 12 20 21 22 23 24 25 33 34 35 36 37 38 46 47 48 49 50 51>;
         hold-trigger-on-release;
-        flavor = "balanced";
-        require-prior-idle-ms = <125>;
+        flavor = "tap-preferred";
+        require-prior-idle-ms = <100>;
         quick-tap-ms = <175>;
     };
 
@@ -55,7 +57,7 @@
         #binding-cells = <2>;
         tapping-term-ms = <280>;
         hold-trigger-on-release;
-        flavor = "balanced";
+        flavor = "tap-preferred";
         require-prior-idle-ms = <125>;
         quick-tap-ms = <175>;
         hold-trigger-key-positions = <0 1 13 14 15 16 17 18 28 29 30 31 0 1 2 3 4 5 13 14 15 16 17 18 26 27 28 29 30 31 39 40 41 42 43 44>;
@@ -70,7 +72,7 @@
         tapping-term-ms = <280>;
         hold-trigger-key-positions = <7 8 9 10 11 12 20 21 22 23 24 25 33 34 35 36 37 38 46 47 48 49 50 51>;
         hold-trigger-on-release;
-        flavor = "balanced";
+        flavor = "tap-preferred";
         require-prior-idle-ms = <125>;
         quick-tap-ms = <175>;
     };
@@ -83,7 +85,7 @@
         #binding-cells = <2>;
         tapping-term-ms = <280>;
         hold-trigger-on-release;
-        flavor = "balanced";
+        flavor = "tap-preferred";
         require-prior-idle-ms = <125>;
         quick-tap-ms = <175>;
         hold-trigger-key-positions = <0 1 13 14 15 16 17 18 28 29 30 31 0 1 2 3 4 5 13 14 15 16 17 18 26 27 28 29 30 31 39 40 41 42 43 44>;
@@ -122,11 +124,11 @@
 
         Home {
             bindings = <
-&kp ESC     &kp N1  &kp N2           &kp N3        &kp N4            &kp N5         &kp UP_ARROW     &kp N6       &kp N7             &kp N8         &kp N9           &kp N0    &kp MINUS
-&kp CLCK    &kp Q   &kp W            &kp E         &kp R             &kp T          &kp DOWN_ARROW   &kp Y        &kp U              &kp I          &kp O            &kp P     &kp BSLH
-&kp TAB     &kp A   &mt RIGHT_ALT S  &lt 1 D       &mt LEFT_SHIFT F  &kp G          &kp LEFT_ARROW   &kp H        &mt RIGHT_SHIFT J  &lt 1 K        &mt RIGHT_ALT L  &kp BSLH  &kp APOS
-&kp LCTRL   &kp Z   &kp X            &kp C         &kp V             &kp B          &kp RIGHT_ARROW  &kp N        &kp M              &kp COMMA      &kp DOT          &kp FSLH  &kp RIGHT_SHIFT
-&kp C_MUTE  &mo 2   &kp LEFT_GUI     &kp LEFT_ALT  &kp BACKSPACE     &lt 2 SPACE    &kp ENTER        &lt 2 ENTER  &kp BACKSPACE      &kp RIGHT_ALT  &kp RIGHT_SHIFT  &mo 2
+&kp ESC     &kp N1  &kp N2                          &kp N3                    &kp N4                           &kp N5                          &kp UP_ARROW     &kp N6                         &kp N7                             &kp N8                     &kp N9                           &kp N0    &kp MINUS
+&kp CLCK    &kp Q   &kp W                           &kp E                     &kp R                            &kp T                           &kp DOWN_ARROW   &kp Y                          &kp U                              &kp I                      &kp O                            &kp P     &kp BSLH
+&kp TAB     &kp A   &Home_row_mod_left RIGHT_ALT S  &Home_row_layer_left 1 D  &Home_row_mod_left LEFT_SHIFT F  &kp G                           &kp LEFT_ARROW   &kp H                          &Home_row_mod_right RIGHT_SHIFT J  &Home_row_layer_right 1 K  &Home_row_mod_right RIGHT_ALT L  &kp BSLH  &kp APOS
+&kp LCTRL   &kp Z   &kp X                           &kp C                     &kp V                            &kp B                           &kp RIGHT_ARROW  &kp N                          &kp M                              &kp COMMA                  &kp DOT                          &kp FSLH  &kp RIGHT_SHIFT
+&kp C_MUTE  &mo 2   &kp LEFT_GUI                    &kp LEFT_ALT              &kp BACKSPACE                    &Home_row_layer_left 2 SPACE    &kp ENTER        &Home_row_layer_right 2 ENTER  &kp BACKSPACE                      &kp RIGHT_ALT              &kp RIGHT_SHIFT                  &mo 2
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
