@@ -112,7 +112,7 @@
         std: std {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp S &kp T &kp D &kp COLON &kp COLON>;
+            bindings = <&kp S &kp T &kp D &kp LS(PERIOD) &kp LS(PERIOD)>;
             label = "STD";
         };
     };
