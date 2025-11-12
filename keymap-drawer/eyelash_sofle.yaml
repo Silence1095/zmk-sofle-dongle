@@ -117,7 +117,7 @@ layers:
   - {t: AltGr+9, s: AltGr+(}
   - AltGr+0
   - Sft+\
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&std'
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -261,5 +261,5 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [27, 28, 30]
+- p: [30, 5]
   k: F5
