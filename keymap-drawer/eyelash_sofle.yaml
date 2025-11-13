@@ -57,11 +57,11 @@ layers:
   - nav_kp
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-space$$', h: nav_kp}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', h: nav_kp}
   - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-return$$', h: nav_kp}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - nav_kp
@@ -187,11 +187,11 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:backspace-reverse-outline$$
-  - {type: held alternate}
+  - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - {type: held alternate}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
   - KP 0
   - .
   - {type: held alternate}
@@ -263,3 +263,15 @@ layers:
 combos:
 - p: [30, 5]
   k: F5
+- p: [14, 15]
+  k: Sft+$$mdi:keyboard-esc$$
+- p: [33, 34]
+  k: {t: '$$mdi:backspace$$', type: backspace}
+- p: [30, 31]
+  k: $$mdi:backspace-reverse-outline$$
+- p: [17, 18]
+  k: AltGr+7
+- p: [20, 21]
+  k: AltGr+0
+- p: [23, 24]
+  k: Sft+9
