@@ -154,11 +154,11 @@
 
         Home {
             bindings = <
-&kp ESC     &kp N1  &kp N2                          &kp N3                    &kp N4                           &kp N5           &kp UP_ARROW     &kp N6         &kp N7                             &kp N8                     &kp N9                           &kp N0    &kp MINUS
-&kp CLCK    &kp Q   &kp W                           &Home_row_layer_left 2 E  &kp R                            &kp T            &kp DOWN_ARROW   &kp Y          &kp U                              &Home_row_layer_right 2 I  &kp O                            &kp P     &kp BSLH
-&kp TAB     &kp A   &Home_row_mod_left RIGHT_ALT S  &Home_row_layer_left 1 D  &Home_row_mod_left LEFT_SHIFT F  &kp G            &kp LEFT_ARROW   &kp H          &Home_row_mod_right RIGHT_SHIFT J  &Home_row_layer_right 1 K  &Home_row_mod_right RIGHT_ALT L  &kp BSLH  &kp APOS
-&kp LCTRL   &kp Z   &kp X                           &kp C                     &kp V                            &kp B            &kp RIGHT_ARROW  &kp N          &kp M                              &kp COMMA                  &kp DOT                          &kp FSLH  &kp RIGHT_SHIFT
-&kp C_MUTE  &mo 2   &kp LEFT_GUI                    &kp LEFT_ALT              &Home_row_layer_left 2 SPACE     &kp BACKSPACE    &kp ENTER        &kp BACKSPACE  &Home_row_layer_right 2 ENTER      &kp RIGHT_ALT              &kp RIGHT_SHIFT                  &mo 2
+&kp ESC     &kp N1  &kp N2                          &kp N3                    &kp N4                           &kp N5           &kp UP_ARROW     &kp N6                         &kp N7                             &kp N8                     &kp N9                           &kp N0    &kp MINUS
+&kp CLCK    &kp Q   &kp W                           &Home_row_layer_left 2 E  &kp R                            &kp T            &kp DOWN_ARROW   &kp Y                          &kp U                              &Home_row_layer_right 2 I  &kp O                            &kp P     &kp BSLH
+&kp TAB     &kp A   &Home_row_mod_left RIGHT_ALT S  &Home_row_layer_left 1 D  &Home_row_mod_left LEFT_SHIFT F  &kp G            &kp LEFT_ARROW   &kp H                          &Home_row_mod_right RIGHT_SHIFT J  &Home_row_layer_right 1 K  &Home_row_mod_right RIGHT_ALT L  &kp BSLH  &kp APOS
+&kp LCTRL   &kp Z   &kp X                           &kp C                     &kp V                            &kp B            &kp RIGHT_ARROW  &kp N                          &kp M                              &kp COMMA                  &kp DOT                          &kp FSLH  &kp RIGHT_SHIFT
+&kp C_MUTE  &mo 2   &kp LEFT_GUI                    &kp LEFT_ALT              &Home_row_layer_left 2 SPACE     &kp BACKSPACE    &kp ENTER        &Home_row_layer_right 2 ENTER  &kp BACKSPACE                      &kp RIGHT_ALT              &kp RIGHT_SHIFT                  &mo 2
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
