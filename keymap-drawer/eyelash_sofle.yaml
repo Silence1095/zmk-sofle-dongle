@@ -60,8 +60,8 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: nav_kp}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: nav_kp}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - nav_kp
@@ -190,8 +190,8 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
+  - {type: held alternate}
+  - $$mdi:backspace-reverse-outline$$
   - KP 0
   - .
   - {type: held alternate}
