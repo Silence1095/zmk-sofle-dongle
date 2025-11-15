@@ -61,7 +61,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: nav_kp}
-  - {t: '$$mdi:keyboard-space$$', h: nav_kp}
+  - {t: '$$mdi:backspace$$', h: nav_kp}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - nav_kp
