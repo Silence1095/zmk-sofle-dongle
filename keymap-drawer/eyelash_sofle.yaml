@@ -17,13 +17,13 @@ layers:
   - CLCK
   - Q
   - W
-  - {t: E, h: nav_kp}
+  - E
   - R
   - T
   - $$mdi:arrow-down-bold$$
   - Y
   - U
-  - {t: I, h: nav_kp}
+  - I
   - O
   - P
   - {t: \, s: '|'}
@@ -57,11 +57,11 @@ layers:
   - nav_kp
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:backspace$$', h: nav_kp}
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: nav_kp}
-  - {t: '$$mdi:backspace$$', h: nav_kp}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - nav_kp
@@ -147,13 +147,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+$$mdi:arrow-left-bold$$
-  - {t: 'Sft+$$mdi:arrow-up-bold$$', type: held}
+  - Sft+$$mdi:arrow-up-bold$$
   - Ctl+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 7
-  - {t: KP 8, type: held alternate}
+  - KP 8
   - KP 9
   - _
   - +
@@ -184,14 +184,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - RETUR2
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {type: held alternate}
-  - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
+  - $$mdi:backspace-reverse-outline$$
   - KP 0
   - .
   - {type: held alternate}
