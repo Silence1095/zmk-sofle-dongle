@@ -192,7 +192,7 @@
             bindings = <
 &trans      &trans  &trans  &trans     &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &kp TAB     &trans  &trans  &trans     &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp CLCK    &kp A   &kp S   &kp D      &kp F         &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp CLCK    &kp A   &kp S   &kp D      &kp F         &trans    &trans  &trans  &kp J   &kp K   &kp L   &trans  &trans
 &kp LSHIFT  &trans  &trans  &trans     &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &to 0   &trans  &kp LCTRL  &kp LEFT_ALT  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
