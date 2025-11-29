@@ -185,6 +185,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP K_VOLUME_DOWN>;
+            label = "Nav_layer";
         };
 
         Gaming {
@@ -197,6 +198,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp K_VOLUME_UP C_VOLUME_DOWN>;
+            label = "Gaming";
         };
     };
 };
