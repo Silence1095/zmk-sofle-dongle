@@ -39,7 +39,7 @@ layers:
   - {t: K, h: Symbols}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: \, s: '|'}
-  - .
+  - Sft+.
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
