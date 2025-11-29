@@ -599,8 +599,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-return"/>
-<a href="#nav_kp">
-<text x="0" y="24" class="key hold layer-activator">nav_kp</text>
+<a href="#Nav_layer">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 67%">Nav_layer</tspan></text>
 </a></g>
 <g transform="translate(610, 283) rotate(-30.0)" class="key backspace keypos-60">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key backspace side"/>
@@ -622,8 +622,8 @@ rect.held, rect.combo.held {
 <g transform="translate(784, 259)" class="key keypos-63">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#nav_kp">
-<text x="0" y="-4" class="key tap layer-activator">nav_kp</text>
+<a href="#Nav_layer">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 67%">Nav_layer</tspan></text>
 </a></g>
 <g class="combo combopos-0">
 <path d="M280,91 l-20,39" class="combo"/>
@@ -980,8 +980,8 @@ rect.held, rect.combo.held {
 <g transform="translate(140, 259)" class="key keypos-53">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#nav_kp">
-<text x="0" y="-4" class="key tap layer-activator">nav_kp</text>
+<a href="#Nav_layer">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 67%">Nav_layer</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(196, 252)" class="key trans keypos-54">
@@ -1082,8 +1082,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 776)" class="layer-nav_kp">
-<text x="0" y="28" class="label" id="nav_kp">nav_kp:</text>
+<g transform="translate(40, 776)" class="layer-Nav_layer">
+<text x="0" y="28" class="label" id="Nav_layer">Nav_layer:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
