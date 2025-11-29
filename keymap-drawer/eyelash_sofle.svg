@@ -633,7 +633,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="103" y="93" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<text x="112" y="102" class="combo tap">Sft+8</text>
 </g>
 <g class="combo backspace combopos-2">
 <rect rx="6" ry="6" x="630" y="134" width="28" height="26" class="combo backspace"/>
@@ -658,6 +658,18 @@ rect.held, rect.combo.held {
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="798" y="89" width="28" height="26" class="combo"/>
 <text x="812" y="102" class="combo tap">Sft+9</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="742" y="242" width="28" height="26" class="combo"/>
+<a href="#Gaming">
+<text x="756" y="256" class="combo tap layer-activator">Gaming</text>
+</a><text x="756" y="266" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="627" y="258" width="28" height="26" class="combo"/>
+<a href="#Home">
+<text x="641" y="271" class="combo tap layer-activator">Home</text>
+</a><text x="641" y="282" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1030,7 +1042,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="103" y="93" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<text x="112" y="102" class="combo tap">Sft+8</text>
 </g>
 <g class="combo backspace combopos-2">
 <rect rx="6" ry="6" x="630" y="134" width="28" height="26" class="combo backspace"/>
@@ -1055,6 +1067,18 @@ rect.held, rect.combo.held {
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="798" y="89" width="28" height="26" class="combo"/>
 <text x="812" y="102" class="combo tap">Sft+9</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="742" y="242" width="28" height="26" class="combo"/>
+<a href="#Gaming">
+<text x="756" y="256" class="combo tap layer-activator">Gaming</text>
+</a><text x="756" y="266" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="627" y="258" width="28" height="26" class="combo"/>
+<a href="#Home">
+<text x="641" y="271" class="combo tap layer-activator">Home</text>
+</a><text x="641" y="282" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1414,7 +1438,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="103" y="93" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<text x="112" y="102" class="combo tap">Sft+8</text>
 </g>
 <g class="combo backspace combopos-2">
 <rect rx="6" ry="6" x="630" y="134" width="28" height="26" class="combo backspace"/>
@@ -1439,6 +1463,18 @@ rect.held, rect.combo.held {
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="798" y="89" width="28" height="26" class="combo"/>
 <text x="812" y="102" class="combo tap">Sft+9</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="742" y="242" width="28" height="26" class="combo"/>
+<a href="#Gaming">
+<text x="756" y="256" class="combo tap layer-activator">Gaming</text>
+</a><text x="756" y="266" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="627" y="258" width="28" height="26" class="combo"/>
+<a href="#Home">
+<text x="641" y="271" class="combo tap layer-activator">Home</text>
+</a><text x="641" y="282" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1775,7 +1811,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="89" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="103" y="93" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<text x="112" y="102" class="combo tap">Sft+8</text>
 </g>
 <g class="combo backspace combopos-2">
 <rect rx="6" ry="6" x="630" y="134" width="28" height="26" class="combo backspace"/>
@@ -1800,6 +1836,18 @@ rect.held, rect.combo.held {
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="798" y="89" width="28" height="26" class="combo"/>
 <text x="812" y="102" class="combo tap">Sft+9</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="742" y="242" width="28" height="26" class="combo"/>
+<a href="#Gaming">
+<text x="756" y="256" class="combo tap layer-activator">Gaming</text>
+</a><text x="756" y="266" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="627" y="258" width="28" height="26" class="combo"/>
+<a href="#Home">
+<text x="641" y="271" class="combo tap layer-activator">Home</text>
+</a><text x="641" y="282" class="combo hold">toggle</text>
 </g>
 </g>
 </g>

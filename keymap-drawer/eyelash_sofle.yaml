@@ -264,7 +264,7 @@ combos:
 - p: [30, 5]
   k: F5
 - p: [14, 15]
-  k: Sft+$$mdi:keyboard-esc$$
+  k: Sft+8
 - p: [33, 34]
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [30, 31]
@@ -275,3 +275,7 @@ combos:
   k: AltGr+0
 - p: [23, 24]
   k: Sft+9
+- p: [62, 63]
+  k: {t: Gaming, h: toggle}
+- p: [60, 61]
+  k: {t: Home, h: toggle}
