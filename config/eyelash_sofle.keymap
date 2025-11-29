@@ -97,7 +97,7 @@
         };
 
         paren {
-            bindings = <&kp LS(ESC)>;
+            bindings = <&kp LS(N8)>;
             key-positions = <14 15>;
         };
 
@@ -124,6 +124,16 @@
         thesis {
             bindings = <&kp RS(N9)>;
             key-positions = <23 24>;
+        };
+
+        Gaming {
+            bindings = <&to 3>;
+            key-positions = <62 63>;
+        };
+
+        home {
+            bindings = <&to 0>;
+            key-positions = <60 61>;
         };
     };
 
